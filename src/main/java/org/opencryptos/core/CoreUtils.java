@@ -1,6 +1,5 @@
 package org.opencryptos.core;
 
-import org.opencryptos.core.wallet.AbstractAddress;
 import com.google.common.base.Joiner;
 
 import org.bitcoinj.crypto.MnemonicCode;

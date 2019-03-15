@@ -1,9 +1,6 @@
 package org.opencryptos.core.coins;
 
 import org.opencryptos.core.coins.families.BitFamily;
-import org.opencryptos.core.coins.families.ReddFamily;
-
-import org.bitcoinj.core.Coin;
 
 /**
  * @author Ahmed Bodiwala

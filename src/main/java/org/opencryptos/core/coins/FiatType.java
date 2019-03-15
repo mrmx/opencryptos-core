@@ -1,6 +1,5 @@
 package org.opencryptos.core.coins;
 
-import org.opencryptos.core.coins.families.Families;
 import org.opencryptos.core.util.Currencies;
 import org.opencryptos.core.util.MonetaryFormat;
 

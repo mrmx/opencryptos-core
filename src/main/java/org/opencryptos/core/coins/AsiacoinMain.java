@@ -1,6 +1,5 @@
 package org.opencryptos.core.coins;
 
-import org.opencryptos.core.coins.families.BitFamily;
 import org.opencryptos.core.coins.families.PeerFamily;
 
 public class AsiacoinMain extends PeerFamily {
