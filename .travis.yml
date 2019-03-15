@@ -3,7 +3,7 @@ sudo: false
 dist: xenial
 language: java
 jdk:
-  - openjdk7
+  - oraclejdk7
   - openjdk8  
   - openjdk9
   - openjdk11
