@@ -3,7 +3,9 @@ sudo: false
 dist: xenial
 language: java
 jdk:
+  - openjdk7
   - openjdk8  
+  - openjdk9
   - openjdk11
 install: true
 script:
