@@ -17,7 +17,6 @@ package org.opencryptos.core.util;
  * limitations under the License.
  */
 
-import org.opencryptos.core.util.MonetaryFormat;
 import org.opencryptos.core.coins.BitcoinMain;
 import org.opencryptos.core.coins.FiatValue;
 import org.opencryptos.core.coins.Value;
