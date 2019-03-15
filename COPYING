@@ -1,18 +1,8 @@
-### OpenWallet for Android ###
+### OpenCryptos Java Library ###
 
-The first truly free, libre, and open source light wallet for multiple cryptocurrencies (Bitcoin, Ethereum, Ripple, etc) on Android https://gitlab.com/openwallet/openwallet-android 
-
-Wallet module source code licensed under:
-
-    - GNU General Public License 3
-    - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-
-Core module source code licensed under:
+The first truly free, libre, and open source lightweight multiple cryptocurrencies java library (Bitcoin, Litecoin, Ethereum, etc) https://github.com/mrmx/opencryptos-java
 
     - Apache License Version 2.0
 
-Forked from Coinomi https://coinomi.com
+Forked from openwallet-android https://github.com/openwalletGH/openwallet-android
 Uses Bitcoinj library https://bitcoinj.github.io
-QR-code functionality by ZXing https://github.com/zxing/zxing
-Crypto-icons by Chris Shepherd https://github.com/shphrd/crypto-icons
-Font-icons by Daniel Bruce https://www.entypo.com
