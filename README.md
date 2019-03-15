@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mrmx/opencryptos-java.svg?branch=master)](https://travis-ci.org/mrmx/opencryptos-java)
+
 ## OpenCryptos for Java
 
 The goal of this project is to build the best free, libre, and open source lightweight java library for multiple cryptocurrencies (Bitcoin, Ethereum, Ripple, etc). 
