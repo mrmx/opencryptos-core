@@ -1,0 +1,10 @@
+## configuration for https://travis-ci.org/mrmx/opencryptos-java
+sudo: false
+dist: xenial
+language: java
+jdk:
+  - openjdk8
+  - openjdk11
+install: true
+script:
+  - maven clean build
