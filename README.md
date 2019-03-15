@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mrmx/opencryptos-java.svg?branch=master)](https://travis-ci.org/mrmx/opencryptos-java)
+[![Build Status](https://travis-ci.com/mrmx/opencryptos-core.svg?branch=master)](https://travis-ci.com/mrmx/opencryptos-core)
 
 ## OpenCryptos for Java
 
