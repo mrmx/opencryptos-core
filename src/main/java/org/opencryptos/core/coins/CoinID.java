@@ -80,11 +80,11 @@ public enum CoinID {
         for (CoinID id : values()) {
             Networks.register(id.type);
 
-            if (symbolLookup.containsKey(id.type.symbol)) {
+            if (symbolLookup.containsKey(id.type.symbol.toUpperCase())) {
                 throw new IllegalStateException(
                         "Coin currency codes must be unique, double found: " + id.type.symbol);
             }
-            symbolLookup.put(id.type.symbol, id.type);
+            symbolLookup.put(id.type.symbol.toUpperCase(), id.type);
 
             if (idLookup.containsKey(id.type.getId())) {
                 throw new IllegalStateException(
