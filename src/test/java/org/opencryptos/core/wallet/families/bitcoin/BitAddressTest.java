@@ -30,7 +30,7 @@ public class BitAddressTest {
     final static String BTC_P2PKH_ADDR = "1FKA3SpU5rkCJhza3d4mGjs7unVy3jgH9T";
     final static String BTC_P2SH_ADDR = "3G1AxzJudm4aPsh1AijMhNE44Jngf2oCSe";
     final static String LTC_P2PKH_ADDR = "LZY7Jf8JAWzFZWgjDm44Ykvt7zsF9YHFyW";
-    final static String LTC_P2SH_ADDR = "3G1AxzJudm4aPsh1AijMhNE44Jngf2oCSe";
+    final static String LTC_P2SH_ADDR = "MNDKGsisasv1CNxuGbihX1UTP1P8aS9nSM";
 
     @Test
     public void testConstructors() throws AddressFormatException {
