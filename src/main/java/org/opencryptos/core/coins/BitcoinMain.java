@@ -8,9 +8,9 @@ import org.opencryptos.core.coins.families.BitFamily;
 public class BitcoinMain extends BitFamily {
     private BitcoinMain() {
         id = "bitcoin.main";
-
+        segwitAddressHrp = "bc";
         addressHeader = 0;
-        p2shHeader = 5;
+        p2shHeader = 5;        
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         spendableCoinbaseDepth = 100;
         dumpedPrivateKeyHeader = 128;

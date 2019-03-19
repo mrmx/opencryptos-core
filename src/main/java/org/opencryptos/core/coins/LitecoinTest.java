@@ -8,7 +8,7 @@ import org.opencryptos.core.coins.families.BitFamily;
 public class LitecoinTest extends BitFamily {
     private LitecoinTest() {
         id = "litecoin.test";
-
+        segwitAddressHrp = "tltc1";
         addressHeader = 111;
         p2shHeader = 196;
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };

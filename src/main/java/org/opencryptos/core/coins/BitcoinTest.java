@@ -8,9 +8,9 @@ import org.opencryptos.core.coins.families.BitFamily;
 public class BitcoinTest extends BitFamily {
     private BitcoinTest() {
         id = "bitcoin.test";
-
+        segwitAddressHrp = "tb";
         addressHeader = 111;
-        p2shHeader = 196;
+        p2shHeader = 196;        
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         spendableCoinbaseDepth = 100;
         dumpedPrivateKeyHeader = 239;
