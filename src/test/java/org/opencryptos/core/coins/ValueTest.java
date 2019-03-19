@@ -18,15 +18,6 @@ package org.opencryptos.core.coins;
  */
 
 
-import org.opencryptos.core.coins.Value;
-import org.opencryptos.core.coins.CoinType;
-import org.opencryptos.core.coins.ValueType;
-import org.opencryptos.core.coins.NuBitsMain;
-import org.opencryptos.core.coins.BitcoinMain;
-import org.opencryptos.core.coins.FiatType;
-import org.opencryptos.core.coins.PeercoinMain;
-import org.opencryptos.core.coins.LitecoinMain;
-import org.opencryptos.core.util.GenericUtils;
 import static org.opencryptos.core.coins.Value.*;
 
 import static org.junit.Assert.assertArrayEquals;
