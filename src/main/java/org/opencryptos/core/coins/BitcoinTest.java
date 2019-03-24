@@ -20,6 +20,7 @@ public class BitcoinTest extends BitFamily {
         uriScheme = "bitcoin";
         bip44Index = 1;
         unitExponent = 8;
+        maxCoins = 21000000L;
         feeValue = value(10000);
         minNonDust = value(5460);
         softDustLimit = value(1000000); // 0.01 BTC

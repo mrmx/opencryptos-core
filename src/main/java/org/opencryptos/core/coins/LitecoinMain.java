@@ -20,6 +20,7 @@ public class LitecoinMain extends BitFamily {
         uriScheme = "litecoin";
         bip44Index = 2;
         unitExponent = 8;
+        maxCoins = 84000000L;
         feeValue = value(100000);
         minNonDust = value(1000); // 0.00001 LTC mininput
         softDustLimit = value(100000); // 0.001 LTC
