@@ -83,6 +83,10 @@ public class Value implements Monetary, Comparable<Value>, Serializable {
     public Coin toCoin() {
         return Coin.valueOf(value);
     }
+    
+    public BigDecimal toBigDecimal() {
+        return new BigDecimal(value).movePointLeft(smallestUnitExponent());
+    }
 
     /**
      * Convert an amount expressed in the way humans are used to into units.
